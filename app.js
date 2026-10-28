@@ -19,6 +19,8 @@
     if (step.after) { const after = document.createElement("p"); after.textContent = step.after; body.append(after); }
     return body;
   }
+  find("#preparations").append(content(recipe.steps[0]));
+  find("#progress").max = recipe.steps.length;
   recipe.steps.forEach((step, index) => {
     const li = document.createElement("li"); const number = document.createElement("span"); number.className = "number"; number.textContent = index + 1; number.setAttribute("aria-hidden", "true");
     const body = document.createElement("div"); const title = document.createElement("h4"); title.textContent = step.title;

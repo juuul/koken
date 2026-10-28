@@ -4,6 +4,7 @@ Nederlandstalige statische receptensite voor kinderen, zonder inloggen.
 
 - Houd teksten eenvoudig en bediening toegankelijk en mobielvriendelijk.
 - HTML, CSS en gewone JavaScript; geen buildstap nodig.
+- Zet voorbereidingen altijd bovenaan het recept én als eerste stap in de kookstand, bijvoorbeeld de oven voorverwarmen en keukenspullen klaarzetten.
 - Receptinhoud staat in `recipes.js`. Verzin geen hoeveelheden of porties.
 - Behoud de instructie om een volwassene te vragen bij hete ovens en ovenschalen.
 - Gebruik lokale afbeeldingen zonder externe trackers.
